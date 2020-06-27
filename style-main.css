@@ -1,0 +1,54 @@
+body{
+	display: block;
+	height: 700px;
+	background: url(фон.jpg);
+	background-size: cover;
+}
+button{
+	width: 250px;
+	height: 125px;
+	font-size:24px;
+}
+.option{
+	text-align: center; 
+	color: white; 
+	font-size: 20px;
+}
+
+.main-element{
+	display: block;
+	margin-top:0px;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	padding-top:25px;
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	text-align: center;
+}
+#title{
+	width: 300px;
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+}
+#description{
+	width: 80%;
+	padding-top: 25px;
+	font-size: 28px;
+	display: flex;
+	text-align: center;
+	color: white;
+}
+#blank{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 80%;
+	border: 4px double white;
+}
+#main{
+	width: 900px;
+	height: 1200px;
+	background-color: blue;
+
