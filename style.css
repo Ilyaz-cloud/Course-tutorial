@@ -1,35 +1,16 @@
-body{
-	display: block;
-	height: 700px;
-	background: url(pic.jpg);
-	background-size: cover; 
-}
-button{
-	width: 250px;
-	height: 125px;
-	font-size:24px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.main-element{
-	display: block;
-	margin-top:0px;
-	margin-bottom: 0px;
-	color: #FFFFFF;
-	padding-top:100px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
+h2{
 	text-align: center;
-
+	padding-top:2rem;
+	padding-bottom:2rem;
 }
-#title{
-	width: 300px;
-	padding-top: 100px;
+h5,label{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 15px;
 }
-#description{
-	width: 700px;
-	padding-top: 50px;
-	font-size: 32px;
+h4, h6, p{
+	text-align: center;
+}
+.footer{
+	background-color: #343a40;
 }

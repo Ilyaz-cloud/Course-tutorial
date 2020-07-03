@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticket</title>
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <div class="container">
+    	<form target="_blank">
+		<button type="button" class="btn btn-link"><a href="index.html">< Назад</a></button>
+		</form>
+    </div>
+    <div class="container">
+    	<h1>Регистрация на рейс</h1>
+    </div>	
+    <div class="container">
+    	<div class="row">
+    		<div class="col-12 col-md-4">
+        <label>Город вылета</label>
+    		<div class="input-group mb-3">
+    			<select class="custom-select" id="inputGroupSelect01">
+    				<option selected>Астана</option>
+    				<option value="1">Москва</option>
+    				<option value="2">Костанай</option>
+    				<option value="3">Санкт-Петербург</option>
+  				</select>
+  				</div>
+  			</div>	
+        <div class="col-12 col-md-4">
+        <label>Город прибытия</label>
+        <div class="input-group mb-3">
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Астана</option>
+            <option value="1">Москва</option>
+            <option value="2">Костанай</option>
+            <option value="3">Санкт-Петербург</option>
+          </select>
+          </div>
+        </div>
+      <div class="col-12 col-md-4">
+      <div>
+        <label>Дата отправления</label>
+        <div class="form-group">
+        <input type="date" class="form-control">
+        </div>
+      </div>
+      </div>
+      </div>
+      
+     
+
+
+  			
+
+
+    	<div class="row">
+
+    	<div class="col-12 col-md-4"><label>Фамилия</label>
+    		<div class="input-group mb-3">
+    			<input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+			</div>
+      </div>
+    	
+      <div class="col-12 col-md-4"><label>Имя</label>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+    </div>
+      
+      <div class="col-12 col-md-4"><label>Отчество</label>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+      </div>    
+    </div>
+    </div>
+
+    
+    	
+  			
+
+
+    	
+    	 <div class="row">
+        <div class="col-12 col-md-4">
+        <label>e-mail</label>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+    	<label>Цель поездки</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	</div>
+	<div class="container">
+		<div class="row">
+	<div class="col-4">
+		<label><b>Выберите класс</b></label>
+		<div class="container"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>Эконом класс </div>
+		<div class="container"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>Бизнес класс</div>
+		<div class="container"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>В кабине пилота</div>
+	</div>
+	<div class="col-12 col-md-4"><label><b>Дополнительно</b></label>
+		<div class="container">
+		<div>
+			<input type="checkbox" class="custom-control-input" id="customControlAutosizing1">
+			<label class="custom-control-label" for="customControlAutosizing1">Имеется багаж</label>
+			</div>
+		
+		<div>
+			<input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
+			<label class="custom-control-label" for="customControlAutosizing2">Имеется оружие</label>
+		</div>
+		</div>
+		
+	</div>
+	</div>
+	</div>
+	<div class="container" style="padding-top: 30px;">
+		<div class="row">
+		<div><button type="button" class="btn btn-primary" style="width: 200px;">Зарегистрироваться</button>
+		<button class="btn btn-secondary" type="reset">Сбросить форму</button>
+		</div>
+	</div>
+		
+	</div>
+	<div class="container" style="padding-top: 30px;"><ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Дополнительные услуги</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Правила безопасности</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Правила перевозки животных</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  	На нашем борту вам представлены:
+  	<ul style="padding-top: 10px;">
+  		<li>Шампанское</li>
+  		<li>Суши</li>
+  		<li>Плов</li>
+  		<li>Соки</li>
+  	</ul>
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</div>
+
+
+		
+	</div>
+</body>
+</html>
